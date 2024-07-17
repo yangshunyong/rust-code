@@ -3,24 +3,24 @@ This repository contains some rust code for study.
 
 ## Install Rust Toolchain.
 ### Install rustup.
-*** curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh ***
+> curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 
 ### Install nightly Toolchain. (cargo, rust-std, rustc, etc).
-*** rustup default nightly ***
+> rustup default nightly
 ### Install rust-src
-*** rustup component add rust-src ***
+> rustup component add rust-src
 
 ### Install Qemu for ARM
-***sudo apt install qemu-system-arm***
+> sudo apt install qemu-system-arm
 
 ## Build
-*** cargo build --release ***
+> cargo build --release
 
 ## Run with Qemu
 ### Run "run.sh"
-/run.sh
+> /run.sh
 ### Or Qemu Command
-qemu-system-aarch64 -machine virt \
+> qemu-system-aarch64 -machine virt \
   -m 1024M \
   -cpu cortex-a53 \
   -nographic \
