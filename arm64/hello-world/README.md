@@ -1,8 +1,7 @@
 # Introduction
 This repository contains rust "helloworld" for ARM64.
 The sample code is from following link and I did some minor changes,
-  https://lowenware.com/blog/aarch64-bare-metal-program-in-rust/
-And
+  https://lowenware.com/blog/aarch64-bare-metal-program-in-rust/, <br>
   https://github.com/sammyne/arm64-bare-metal-program-in-rust
 
 ## Install Rust Toolchain.
