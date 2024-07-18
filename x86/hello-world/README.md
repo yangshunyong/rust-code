@@ -1,0 +1,2 @@
+# Build
+rustc main.rs
