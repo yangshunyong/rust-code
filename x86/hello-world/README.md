@@ -1,2 +1,2 @@
 # Build
-rustc main.rs
+> rustc main.rs
